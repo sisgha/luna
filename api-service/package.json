@@ -1,8 +1,13 @@
 {
   "name": "@ladesa-ro/api.service",
-  "version": "1.0.0-next.30",
+  "version": "1.0.0-next.31",
   "private": true,
-  "files": ["generated/**/*", "src/**/*", "tsconfig*.json", "nest-cli.json"],
+  "files": [
+    "generated/**/*",
+    "src/**/*",
+    "tsconfig*.json",
+    "nest-cli.json"
+  ],
   "scripts": {
     "build": "bun run build:openapi-json",
     "build:openapi-json": "bun run --silent codegen-openapi --apiPrefix=/ --outFile=./generated/openapi.v3.json",
